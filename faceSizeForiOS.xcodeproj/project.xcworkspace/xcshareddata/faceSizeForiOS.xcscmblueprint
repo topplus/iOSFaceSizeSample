@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++B28ECF5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++41E1344" : 0,
+    "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++B28ECF5" : 0,
+    "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++11A0FE4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D4A6FEB2-2FC1-4E57-8F54-D5C91AF070B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++41E1344" : "..\/..\/..\/src\/ios\/faceSizeForiOSDemo",
+    "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++B28ECF5" : "iOSFaceSizeSample\/",
+    "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++11A0FE4" : "..\/..\/..\/src\/ios\/faceSizeForiOSDemo"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "faceSizeForiOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "faceSizeForiOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.topplus.com:glassplus\/iOSFaceSizeSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++11A0FE4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.topplus.com:glassplus\/faceSizeForiOSDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++41E1344"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.topplus.com:glassplus\/iOSFaceSizeSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8560465F0677D54D21608EA9CEEC6D4CE509DB68+++B28ECF5"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  faceSizeForiOS
+
+  Created by Jeavil on 16/8/11.
+  Copyright © 2016年 topplusvision. All rights reserved.
+*/
+"请保持身份证长边缘平行于双眼\n且需把人脸和身份证移置引导区"="";
+"瞳宽"="";
+"脸宽"="";
+"鼻宽"="";
+"内眼角距"="";
+"外眼角距"="";

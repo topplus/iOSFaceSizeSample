@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="valueViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="尺寸测量背景.png" translatesAutoresizingMaskIntoConstraints="NO" id="bfR-pz-PJV">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="尺寸测量边框.png" translatesAutoresizingMaskIntoConstraints="NO" id="jpH-Gk-Wy7">
+                    <rect key="frame" x="20" y="22" width="560" height="530"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fO-g7-FRh">
+                    <rect key="frame" x="35" y="527" width="45" height="65"/>
+                    <state key="normal" backgroundImage="返回.png"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="尺寸测量圆圈.png" translatesAutoresizingMaskIntoConstraints="NO" id="mrw-o9-7Ol">
+                    <rect key="frame" x="61" y="405" width="90" height="90"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="尺寸测量蓝色圈.png" translatesAutoresizingMaskIntoConstraints="NO" id="pl3-Q7-zm3">
+                    <rect key="frame" x="66" y="410" width="80" height="80"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="动态圈.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZqY-JZ-ASj">
+                    <rect key="frame" x="66" y="410" width="80" height="80"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o76-Sy-FgA">
+                    <rect key="frame" x="66" y="28" width="270" height="360"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPf-rr-oyU">
+                    <rect key="frame" x="333" y="388" width="194" height="112"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bfR-pz-PJV" secondAttribute="bottom" id="56W-sZ-aBo"/>
+                <constraint firstItem="jpH-Gk-Wy7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="6vk-rF-a0D"/>
+                <constraint firstAttribute="bottom" secondItem="jpH-Gk-Wy7" secondAttribute="bottom" constant="50" id="LGh-Eh-T2U"/>
+                <constraint firstItem="bfR-pz-PJV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bl2-Xj-Mnw"/>
+                <constraint firstAttribute="trailing" secondItem="bfR-pz-PJV" secondAttribute="trailing" id="eMy-v2-iEb"/>
+                <constraint firstItem="bfR-pz-PJV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fTa-Bj-6tX"/>
+                <constraint firstItem="jpH-Gk-Wy7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="ghD-V7-MZZ"/>
+                <constraint firstAttribute="trailing" secondItem="jpH-Gk-Wy7" secondAttribute="trailing" constant="20" id="wgH-a1-qHd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="动态圈.png" width="421" height="421"/>
+        <image name="尺寸测量圆圈.png" width="487" height="487"/>
+        <image name="尺寸测量背景.png" width="1440" height="2560"/>
+        <image name="尺寸测量蓝色圈.png" width="422" height="422"/>
+        <image name="尺寸测量边框.png" width="1306" height="2350"/>
+        <image name="返回.png" width="54" height="94"/>
+    </resources>
+</document>
